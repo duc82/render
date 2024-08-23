@@ -1,3 +1,5 @@
+import { Outlet } from "react-router-dom";
+
 export default function Test2Layout() {
-  return <div>Test2Layout</div>;
+  return <Outlet />;
 }
